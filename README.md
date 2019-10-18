@@ -1,15 +1,13 @@
 ## Deformable Convolutional Networks V2 with Pytorch 1.3
 win10+cuda10.1+python3.7+pytorch 1.3
 ### 4 build
-1. vs2015不行，模板问题，需要新的编译器，这里在线安装 vs2019的工具链（vs_buildtools__872086520.1559730552.exe）。  
-2. conda 安装 cudakit cudnn pytorch torchvision  
-3. 
-### Build
-```1.启动 x64 Native Tools Command Prompt for VS 2019  
-   2. pip list 检查相关包是否ok          
-   3.python setup.py build develop # build
-   4. python test.py    # run examples and gradient check 
-```
+  1. vs2015不行，模板问题，需要新的编译器，这里在线安装 vs2019的工具链（vs_buildtools__872086520.1559730552.exe）。  
+  2. 启动 x64 Native Tools Command Prompt for VS 2019   
+  3. conda （pip）安装 cudakit cudnn pytorch torchvision
+  4. pip list 检查相关包是否ok         
+  5.python setup.py build develop # build
+  6. python test.py    # run examples and gradient check 
+
 
 ### An Example
 - deformable conv
