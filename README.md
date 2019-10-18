@@ -6,7 +6,7 @@ win10+cuda10.1+python3.7+pytorch 1.3
   2. 启动 x64 Native Tools Command Prompt for VS 2019     
   3. conda （pip）安装 cudakit cudnn pytorch torchvision  
   4. pip list 检查相关包是否ok             
-  5.python setup.py build develop # build  
+  5. python setup.py build develop # build  
   6. python test.py    # run examples and gradient check  
 
 
